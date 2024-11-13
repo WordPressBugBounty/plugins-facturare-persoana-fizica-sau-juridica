@@ -240,7 +240,7 @@ class Woo_Facturare_Public {
 	public function hide_fields() {
 
 		if ( ( function_exists( 'is_checkout' ) && is_checkout() ) || ( function_exists( 'is_account_page' ) && is_account_page() ) ) {
-			echo '<style>.woocommerce .woocommerce-billing-fields .av-hide,.woocommerce .woocommerce-address-fields .av-hide,.wcf-embed-checkout-form .woocommerce form .form-row.av-hide{display:none}.woocommerce .av_tip_facturare_radio span.woocommerce-input-wrapper {display: flex;align-items: center;}.woocommerce .av_tip_facturare_radio span.woocommerce-input-wrapper label + input[type="radio"] {margin-left: 10px;}.woocommerce .av_tip_facturare_radio span.woocommerce-input-wrapper label{line-height:1;}</style>';
+			echo '<style>.av-hide,.woocommerce-billing-fields .av-hide,.woocommerce .woocommerce-billing-fields .av-hide,.woocommerce .woocommerce-address-fields .av-hide,.wcf-embed-checkout-form .woocommerce form .form-row.av-hide{display:none}.woocommerce .av_tip_facturare_radio span.woocommerce-input-wrapper {display: flex;align-items: center;}.woocommerce .av_tip_facturare_radio span.woocommerce-input-wrapper label + input[type="radio"] {margin-left: 10px;}.woocommerce .av_tip_facturare_radio span.woocommerce-input-wrapper label{line-height:1;}</style>';
 		}
 
 	}

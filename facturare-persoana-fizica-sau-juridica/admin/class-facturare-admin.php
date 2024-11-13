@@ -4,7 +4,8 @@ use Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableControlle
 
 class Woo_Facturare_Admin {
 
-	private $fields =array() ;
+	private $fields   = array() ;
+	private $defaults = array() ;
 
 	public function __construct() {
 		$this->defaults = array(
