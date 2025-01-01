@@ -1,15 +1,15 @@
-# Copyright (C) 2024 Avian Studio
+# Copyright (C) 2025 Avian Studio
 # This file is distributed under the same license as the Facturare - Persoana Fizica sau Juridica package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Facturare - Persoana Fizica sau Juridica 1.2.3\n"
+"Project-Id-Version: Facturare - Persoana Fizica sau Juridica 1.2.4\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/facturare-persoana-fizica-sau-juridica\n"
-"POT-Creation-Date: 2024-11-13 19:46:34+00:00\n"
+"POT-Creation-Date: 2025-01-01 21:19:36+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -26,7 +26,7 @@ msgstr ""
 "X-Generator: grunt-wp-i18n 1.0.3\n"
 
 #: admin/class-facturare-admin.php:12 admin/class-facturare-admin.php:97
-#: admin/class-facturare-admin.php:352 admin/class-wc-settings-facturare.php:40
+#: admin/class-facturare-admin.php:361 admin/class-wc-settings-facturare.php:40
 #: admin/class-wc-settings-facturare.php:90
 #: admin/class-wc-settings-facturare.php:411
 #: public/class-facturare-public.php:9
@@ -49,7 +49,7 @@ msgid "Datorita legislatiei in vigoare trebuie sa completati campul CNP"
 msgstr ""
 
 #: admin/class-facturare-admin.php:18 admin/class-facturare-admin.php:106
-#: admin/class-facturare-admin.php:353 admin/class-wc-settings-facturare.php:41
+#: admin/class-facturare-admin.php:362 admin/class-wc-settings-facturare.php:41
 #: admin/class-wc-settings-facturare.php:152
 #: admin/class-wc-settings-facturare.php:412
 #: public/class-facturare-public.php:15
@@ -141,15 +141,15 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: admin/class-facturare-admin.php:274
+#: admin/class-facturare-admin.php:283
 msgid "Setari"
 msgstr ""
 
-#: admin/class-facturare-admin.php:283
+#: admin/class-facturare-admin.php:292
 msgid "Settings"
 msgstr ""
 
-#: admin/class-facturare-admin.php:347
+#: admin/class-facturare-admin.php:356
 msgid "Tip facturare"
 msgstr ""
 
@@ -320,11 +320,11 @@ msgstr ""
 msgid "Ascunde reclamele."
 msgstr ""
 
-#: public/class-facturare-public.php:228
+#: public/class-facturare-public.php:227
 msgid "optional"
 msgstr ""
 
-#: public/class-facturare-public.php:229
+#: public/class-facturare-public.php:228
 msgid "required"
 msgstr ""
 

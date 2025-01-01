@@ -123,8 +123,13 @@ class Woo_Facturare_Admin {
 
 		if ( 'pers-fiz' == $_POST['tip_facturare'] ) {
 			
-			if ( isset( $_POST['cnp'] ) && '' != $_POST['cnp'] ) {
+			if ( isset( $_POST['cnp'] ) ) {
 				$av_settings['cnp'] = sanitize_text_field($_POST['cnp']);
+
+				if ( '' == $av_settings['cnp'] ) {
+					$av_settings['cnp'] = '0000000000000';
+				}
+
 			}
 
 		}elseif ( 'pers-jur' == $_POST['tip_facturare'] ) {
@@ -151,7 +156,6 @@ class Woo_Facturare_Admin {
 			$order = wc_get_order( $order_id );
 			$order->update_meta_data( 'av_facturare', $av_settings );
 			$order->save();
-			// update_post_meta( $order_id, 'av_facturare', $av_settings );
 		}
 
 	}
@@ -170,8 +174,13 @@ class Woo_Facturare_Admin {
 
 		if ( 'pers-fiz' == $data['tip_facturare'] ) {
 			
-			if ( isset( $data['cnp'] ) && '' != $data['cnp'] ) {
-				$av_settings['cnp'] = sanitize_text_field($data['cnp']);
+			if ( isset( $_POST['cnp'] ) ) {
+				$av_settings['cnp'] = sanitize_text_field($_POST['cnp']);
+
+				if ( '' == $av_settings['cnp'] ) {
+					$av_settings['cnp'] = '0000000000000';
+				}
+
 			}
 
 		}elseif ( 'pers-jur' == $data['tip_facturare'] ) {

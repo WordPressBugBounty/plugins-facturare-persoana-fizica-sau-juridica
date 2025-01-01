@@ -215,7 +215,6 @@ class Woo_Facturare_Public {
 				$fields['billing'][ $our_field ]['required'] = false;
 			}
 		}
-		// print_r( $fields );
 		return $fields;
 	}
 
@@ -445,7 +444,11 @@ class Woo_Facturare_Public {
 		}
 
 		if ( isset( $_POST['cnp'] ) ) {
-			update_user_meta( $user_id, 'cnp', sanitize_text_field( $_POST['cnp'] ) );
+			$cnp = sanitize_text_field( $_POST['cnp'] );
+			if ( 'pers-fiz' == $_POST['tip_facturare'] && '' == $cnp ) {
+				$cnp = '0000000000000';
+			}
+			update_user_meta( $user_id, 'cnp', $cnp );
 		}
 
 		if ( isset( $_POST['cui'] ) ) {

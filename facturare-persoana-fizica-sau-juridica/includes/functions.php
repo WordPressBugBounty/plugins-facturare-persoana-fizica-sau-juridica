@@ -6,9 +6,15 @@ function av_validare_cnp( $cnp ) {
         return false;
     }
 
+    if ( '0000000000000' == $cnp ) {
+        return true;
+    }
+
     if ( $cnp != (int)$cnp ) {
     	return false;
     }
+
+
 
     $cnp = str_split($cnp);
 

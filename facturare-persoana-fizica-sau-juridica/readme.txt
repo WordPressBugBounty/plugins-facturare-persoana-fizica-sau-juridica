@@ -3,7 +3,7 @@ Contributors: giucu91
 Tags: woocommerce, facturare, persoana fizica, persoana juridica
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Adaugă câmpurile necesare facturării persoanelor fizice sau juridice conform legislației din Romania în vigoare.
@@ -57,6 +57,9 @@ Pentru a optimiza baza de date, câmpurile adăugate de acest plugin sunt salvat
 3. Setări Persoane Juridice
 
 == Changelog ==
+
+** 1.2.4 **
+- Fixed: Modificari pentru eFactura B2C. Posibilitatea de a introduce un CNP format de 13 de 0. By default daca nu este completat CNP-ul se va salva un numar cu 13 de 0.
 
 ** 1.2.3 **
 - Fixed: Creation of dynamic property Woo_Facturare_Admin
