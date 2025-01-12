@@ -128,6 +128,13 @@ class WC_Settings_Facturare extends WC_Settings_Page {
 					'type'    => 'checkbox',
 				),
 				array(
+					'title'   => esc_html__( 'Extra', 'woo-facturare' ),
+					'desc'    => __( "Nu afișa câmpul CNP pe pagina de checkout, dar salvează valoarea implicită '0000000000000' (13 zerouri) dacă este selectată opțiunea 'Persoană Fizică' în procesul de checkout.", 'woo-facturare' ),
+					'id'      => 'av_facturare[facturare_pers_fiz_cnp_extra]',
+					'default' => 'no',
+					'type'    => 'checkbox',
+				),
+				array(
 	                'name'    => esc_html__( 'Mesaj Eroare', 'woo-facturare' ),
 	                'type'    => 'textarea',
 	                'default' => esc_html__( 'Datorita legislatiei in vigoare trebuie sa completati campul CNP', 'woo-facturare' ),

@@ -14,6 +14,7 @@ class Woo_Facturare_Admin {
 			'facturare_pers_fiz_cnp_placeholder'        => esc_html__( 'Introduceti Codul numeric personal', 'woo-facturare' ),
 			'facturare_pers_fiz_cnp_vizibility'         => 'no',
 			'facturare_pers_fiz_cnp_required'           => 'no',
+			'facturare_pers_fiz_cnp_extra'              => 'no',
 			'facturare_pers_fiz_cnp_error'              => esc_html__( 'Datorita legislatiei in vigoare trebuie sa completati campul CNP', 'woo-facturare' ),
 			'facturare_pers_jur_label'                  => esc_html__( 'Persoana Juridica', 'woo-facturare' ),
 			'facturare_pers_jur_company_label'          => esc_html__( 'Nume Firma', 'woo-facturare' ),
@@ -123,13 +124,12 @@ class Woo_Facturare_Admin {
 
 		if ( 'pers-fiz' == $_POST['tip_facturare'] ) {
 			
-			if ( isset( $_POST['cnp'] ) ) {
+			if ( '' == $av_settings['cnp'] ) {
+				$av_settings['cnp'] = '0000000000000';
+			}
+
+			if ( isset( $_POST['cnp'] ) && '' != $_POST['cnp'] ) {
 				$av_settings['cnp'] = sanitize_text_field($_POST['cnp']);
-
-				if ( '' == $av_settings['cnp'] ) {
-					$av_settings['cnp'] = '0000000000000';
-				}
-
 			}
 
 		}elseif ( 'pers-jur' == $_POST['tip_facturare'] ) {
@@ -174,13 +174,12 @@ class Woo_Facturare_Admin {
 
 		if ( 'pers-fiz' == $data['tip_facturare'] ) {
 			
-			if ( isset( $_POST['cnp'] ) ) {
+			if ( '' == $av_settings['cnp'] ) {
+				$av_settings['cnp'] = '0000000000000';
+			}
+
+			if ( isset( $_POST['cnp'] ) && '' != $_POST['cnp'] ) {
 				$av_settings['cnp'] = sanitize_text_field($_POST['cnp']);
-
-				if ( '' == $av_settings['cnp'] ) {
-					$av_settings['cnp'] = '0000000000000';
-				}
-
 			}
 
 		}elseif ( 'pers-jur' == $data['tip_facturare'] ) {

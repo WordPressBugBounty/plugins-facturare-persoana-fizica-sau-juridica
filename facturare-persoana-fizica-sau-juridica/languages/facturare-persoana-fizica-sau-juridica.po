@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the Facturare - Persoana Fizica sau Juridica package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Facturare - Persoana Fizica sau Juridica 1.2.4\n"
+"Project-Id-Version: Facturare - Persoana Fizica sau Juridica 1.2.5\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/facturare-persoana-fizica-sau-juridica\n"
-"POT-Creation-Date: 2025-01-01 21:19:36+00:00\n"
+"POT-Creation-Date: 2025-01-12 21:29:33+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,131 +25,131 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
 
-#: admin/class-facturare-admin.php:12 admin/class-facturare-admin.php:97
-#: admin/class-facturare-admin.php:361 admin/class-wc-settings-facturare.php:40
+#: admin/class-facturare-admin.php:12 admin/class-facturare-admin.php:98
+#: admin/class-facturare-admin.php:360 admin/class-wc-settings-facturare.php:40
 #: admin/class-wc-settings-facturare.php:90
-#: admin/class-wc-settings-facturare.php:411
-#: public/class-facturare-public.php:9
+#: admin/class-wc-settings-facturare.php:418
+#: public/class-facturare-checkout.php:9 public/class-facturare-public.php:9
 msgid "Persoana Fizica"
 msgstr ""
 
 #: admin/class-facturare-admin.php:13 admin/class-wc-settings-facturare.php:107
-#: public/class-facturare-public.php:10
+#: public/class-facturare-checkout.php:10 public/class-facturare-public.php:10
 msgid "CNP"
 msgstr ""
 
 #: admin/class-facturare-admin.php:14 admin/class-wc-settings-facturare.php:113
-#: public/class-facturare-public.php:11
+#: public/class-facturare-checkout.php:11 public/class-facturare-public.php:11
 msgid "Introduceti Codul numeric personal"
 msgstr ""
 
-#: admin/class-facturare-admin.php:17 admin/class-wc-settings-facturare.php:133
-#: public/class-facturare-public.php:14
+#: admin/class-facturare-admin.php:18 admin/class-wc-settings-facturare.php:140
+#: public/class-facturare-checkout.php:14 public/class-facturare-public.php:14
 msgid "Datorita legislatiei in vigoare trebuie sa completati campul CNP"
 msgstr ""
 
-#: admin/class-facturare-admin.php:18 admin/class-facturare-admin.php:106
-#: admin/class-facturare-admin.php:362 admin/class-wc-settings-facturare.php:41
-#: admin/class-wc-settings-facturare.php:152
-#: admin/class-wc-settings-facturare.php:412
-#: public/class-facturare-public.php:15
+#: admin/class-facturare-admin.php:19 admin/class-facturare-admin.php:107
+#: admin/class-facturare-admin.php:361 admin/class-wc-settings-facturare.php:41
+#: admin/class-wc-settings-facturare.php:159
+#: admin/class-wc-settings-facturare.php:419
+#: public/class-facturare-checkout.php:15 public/class-facturare-public.php:15
 msgid "Persoana Juridica"
 msgstr ""
 
-#: admin/class-facturare-admin.php:19 admin/class-wc-settings-facturare.php:170
-#: public/class-facturare-public.php:16
+#: admin/class-facturare-admin.php:20 admin/class-wc-settings-facturare.php:177
+#: public/class-facturare-checkout.php:16 public/class-facturare-public.php:16
 msgid "Nume Firma"
 msgstr ""
 
-#: admin/class-facturare-admin.php:20 admin/class-wc-settings-facturare.php:176
-#: public/class-facturare-public.php:17
+#: admin/class-facturare-admin.php:21 admin/class-wc-settings-facturare.php:183
+#: public/class-facturare-checkout.php:17 public/class-facturare-public.php:17
 msgid "Introduceti numele firmei dumneavoastra"
 msgstr ""
 
-#: admin/class-facturare-admin.php:23 admin/class-wc-settings-facturare.php:196
-#: public/class-facturare-public.php:20
+#: admin/class-facturare-admin.php:24 admin/class-wc-settings-facturare.php:203
+#: public/class-facturare-checkout.php:20 public/class-facturare-public.php:20
 msgid "Pentru a va putea emite factura avem nevoie de numele firmei dumneavoastra"
 msgstr ""
 
-#: admin/class-facturare-admin.php:24 admin/class-wc-settings-facturare.php:214
-#: public/class-facturare-public.php:21
+#: admin/class-facturare-admin.php:25 admin/class-wc-settings-facturare.php:221
+#: public/class-facturare-checkout.php:21 public/class-facturare-public.php:21
 msgid "CUI"
 msgstr ""
 
-#: admin/class-facturare-admin.php:25 admin/class-wc-settings-facturare.php:220
-#: public/class-facturare-public.php:22
+#: admin/class-facturare-admin.php:26 admin/class-wc-settings-facturare.php:227
+#: public/class-facturare-checkout.php:22 public/class-facturare-public.php:22
 msgid "Introduceti Codul Unic de Inregistrare"
 msgstr ""
 
-#: admin/class-facturare-admin.php:28 admin/class-wc-settings-facturare.php:247
-#: public/class-facturare-public.php:26
+#: admin/class-facturare-admin.php:29 admin/class-wc-settings-facturare.php:254
+#: public/class-facturare-checkout.php:26 public/class-facturare-public.php:26
 msgid "Pentru a va putea emite factura avem nevoie de CUI-ul firmei dumneavoastra"
 msgstr ""
 
-#: admin/class-facturare-admin.php:29 admin/class-wc-settings-facturare.php:265
-#: public/class-facturare-public.php:27
+#: admin/class-facturare-admin.php:30 admin/class-wc-settings-facturare.php:272
+#: public/class-facturare-checkout.php:27 public/class-facturare-public.php:27
 msgid "Nr. Reg. Com"
 msgstr ""
 
-#: admin/class-facturare-admin.php:33 admin/class-wc-settings-facturare.php:291
-#: public/class-facturare-public.php:31
+#: admin/class-facturare-admin.php:34 admin/class-wc-settings-facturare.php:298
+#: public/class-facturare-checkout.php:31 public/class-facturare-public.php:31
 msgid ""
 "Pentru a va putea emite factura avem nevoie de numarul de ordine in "
 "registrul comertului"
 msgstr ""
 
-#: admin/class-facturare-admin.php:34 admin/class-wc-settings-facturare.php:309
-#: public/class-facturare-public.php:32
+#: admin/class-facturare-admin.php:35 admin/class-wc-settings-facturare.php:316
+#: public/class-facturare-checkout.php:32 public/class-facturare-public.php:32
 msgid "Nume Banca"
 msgstr ""
 
-#: admin/class-facturare-admin.php:35 admin/class-wc-settings-facturare.php:315
-#: public/class-facturare-public.php:33
+#: admin/class-facturare-admin.php:36 admin/class-wc-settings-facturare.php:322
+#: public/class-facturare-checkout.php:33 public/class-facturare-public.php:33
 msgid "Numele bancii cu care lucrati"
 msgstr ""
 
-#: admin/class-facturare-admin.php:38 admin/class-wc-settings-facturare.php:335
-#: public/class-facturare-public.php:36
+#: admin/class-facturare-admin.php:39 admin/class-wc-settings-facturare.php:342
+#: public/class-facturare-checkout.php:36 public/class-facturare-public.php:36
 msgid "Pentru a va putea emite factura avem nevoie de numele bancii cu care lucrati"
 msgstr ""
 
-#: admin/class-facturare-admin.php:39 admin/class-wc-settings-facturare.php:353
-#: public/class-facturare-public.php:37
+#: admin/class-facturare-admin.php:40 admin/class-wc-settings-facturare.php:360
+#: public/class-facturare-checkout.php:37 public/class-facturare-public.php:37
 msgid "IBAN"
 msgstr ""
 
-#: admin/class-facturare-admin.php:40 admin/class-wc-settings-facturare.php:359
-#: public/class-facturare-public.php:38
+#: admin/class-facturare-admin.php:41 admin/class-wc-settings-facturare.php:366
+#: public/class-facturare-checkout.php:38 public/class-facturare-public.php:38
 msgid "Numarul contului IBAN"
 msgstr ""
 
-#: admin/class-facturare-admin.php:43 admin/class-wc-settings-facturare.php:379
-#: public/class-facturare-public.php:41
+#: admin/class-facturare-admin.php:44 admin/class-wc-settings-facturare.php:386
+#: public/class-facturare-checkout.php:41 public/class-facturare-public.php:41
 msgid "Pentru a va putea emite factura avem nevoie de numarul contului"
 msgstr ""
 
-#: admin/class-facturare-admin.php:46 admin/class-wc-settings-facturare.php:420
-#: public/class-facturare-public.php:44
+#: admin/class-facturare-admin.php:47 admin/class-wc-settings-facturare.php:427
+#: public/class-facturare-checkout.php:44 public/class-facturare-public.php:44
 msgid "Tip Facturare"
 msgstr ""
 
-#: admin/class-facturare-admin.php:79 admin/class-wc-settings-facturare.php:27
+#: admin/class-facturare-admin.php:80 admin/class-wc-settings-facturare.php:27
 msgid "Facturare"
 msgstr ""
 
-#: admin/class-facturare-admin.php:80 admin/class-wc-settings-facturare.php:39
+#: admin/class-facturare-admin.php:81 admin/class-wc-settings-facturare.php:39
 msgid "General"
 msgstr ""
 
-#: admin/class-facturare-admin.php:283
+#: admin/class-facturare-admin.php:282
 msgid "Setari"
 msgstr ""
 
-#: admin/class-facturare-admin.php:292
+#: admin/class-facturare-admin.php:291
 msgid "Settings"
 msgstr ""
 
-#: admin/class-facturare-admin.php:356
+#: admin/class-facturare-admin.php:355
 msgid "Tip facturare"
 msgstr ""
 
@@ -166,48 +166,48 @@ msgid "Camp CNP"
 msgstr ""
 
 #: admin/class-wc-settings-facturare.php:105
-#: admin/class-wc-settings-facturare.php:168
-#: admin/class-wc-settings-facturare.php:212
-#: admin/class-wc-settings-facturare.php:263
-#: admin/class-wc-settings-facturare.php:307
-#: admin/class-wc-settings-facturare.php:351
-#: admin/class-wc-settings-facturare.php:418
+#: admin/class-wc-settings-facturare.php:175
+#: admin/class-wc-settings-facturare.php:219
+#: admin/class-wc-settings-facturare.php:270
+#: admin/class-wc-settings-facturare.php:314
+#: admin/class-wc-settings-facturare.php:358
+#: admin/class-wc-settings-facturare.php:425
 msgid "Label"
 msgstr ""
 
 #: admin/class-wc-settings-facturare.php:111
-#: admin/class-wc-settings-facturare.php:174
-#: admin/class-wc-settings-facturare.php:218
-#: admin/class-wc-settings-facturare.php:269
-#: admin/class-wc-settings-facturare.php:313
-#: admin/class-wc-settings-facturare.php:357
+#: admin/class-wc-settings-facturare.php:181
+#: admin/class-wc-settings-facturare.php:225
+#: admin/class-wc-settings-facturare.php:276
+#: admin/class-wc-settings-facturare.php:320
+#: admin/class-wc-settings-facturare.php:364
 msgid "Placeholder"
 msgstr ""
 
 #: admin/class-wc-settings-facturare.php:117
-#: admin/class-wc-settings-facturare.php:180
-#: admin/class-wc-settings-facturare.php:231
-#: admin/class-wc-settings-facturare.php:275
-#: admin/class-wc-settings-facturare.php:319
-#: admin/class-wc-settings-facturare.php:363
-msgid "Vizibilitate"
-msgstr ""
-
-#: admin/class-wc-settings-facturare.php:118
-#: admin/class-wc-settings-facturare.php:181
-#: admin/class-wc-settings-facturare.php:232
-#: admin/class-wc-settings-facturare.php:276
-#: admin/class-wc-settings-facturare.php:320
-#: admin/class-wc-settings-facturare.php:364
-msgid "Arata acest camp pe pagina de checkout"
-msgstr ""
-
-#: admin/class-wc-settings-facturare.php:124
 #: admin/class-wc-settings-facturare.php:187
 #: admin/class-wc-settings-facturare.php:238
 #: admin/class-wc-settings-facturare.php:282
 #: admin/class-wc-settings-facturare.php:326
 #: admin/class-wc-settings-facturare.php:370
+msgid "Vizibilitate"
+msgstr ""
+
+#: admin/class-wc-settings-facturare.php:118
+#: admin/class-wc-settings-facturare.php:188
+#: admin/class-wc-settings-facturare.php:239
+#: admin/class-wc-settings-facturare.php:283
+#: admin/class-wc-settings-facturare.php:327
+#: admin/class-wc-settings-facturare.php:371
+msgid "Arata acest camp pe pagina de checkout"
+msgstr ""
+
+#: admin/class-wc-settings-facturare.php:124
+#: admin/class-wc-settings-facturare.php:194
+#: admin/class-wc-settings-facturare.php:245
+#: admin/class-wc-settings-facturare.php:289
+#: admin/class-wc-settings-facturare.php:333
+#: admin/class-wc-settings-facturare.php:377
 msgid "Obligatoriu"
 msgstr ""
 
@@ -216,107 +216,118 @@ msgid "Da, campul <strong>CNP</strong> este Obligatoriu"
 msgstr ""
 
 #: admin/class-wc-settings-facturare.php:131
-#: admin/class-wc-settings-facturare.php:194
-#: admin/class-wc-settings-facturare.php:245
-#: admin/class-wc-settings-facturare.php:289
-#: admin/class-wc-settings-facturare.php:333
-#: admin/class-wc-settings-facturare.php:377
+msgid "Extra"
+msgstr ""
+
+#: admin/class-wc-settings-facturare.php:132
+msgid ""
+"Nu afișa câmpul CNP pe pagina de checkout, dar salvează valoarea implicită "
+"'0000000000000' (13 zerouri) dacă este selectată opțiunea 'Persoană Fizică' "
+"în procesul de checkout."
+msgstr ""
+
+#: admin/class-wc-settings-facturare.php:138
+#: admin/class-wc-settings-facturare.php:201
+#: admin/class-wc-settings-facturare.php:252
+#: admin/class-wc-settings-facturare.php:296
+#: admin/class-wc-settings-facturare.php:340
+#: admin/class-wc-settings-facturare.php:384
 msgid "Mesaj Eroare"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:145
+#: admin/class-wc-settings-facturare.php:152
 msgid "Setari Persoane Juridice"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:150
+#: admin/class-wc-settings-facturare.php:157
 msgid "Label Persoana Juridica"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:162
+#: admin/class-wc-settings-facturare.php:169
 msgid "Camp Nume Firma"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:188
+#: admin/class-wc-settings-facturare.php:195
 msgid "Da, campul <strong>Nume Firma</strong> este Obligatoriu"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:206
+#: admin/class-wc-settings-facturare.php:213
 msgid "Camp CUI"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:224
+#: admin/class-wc-settings-facturare.php:231
 msgid "Validare"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:225
+#: admin/class-wc-settings-facturare.php:232
 msgid ""
 "Folosim un algoritm ca sa ne asiguram ca CUI-ul introdus este valid, din "
 "pacate aceasta validare este doar pentru CUI-urile din Romania."
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:239
+#: admin/class-wc-settings-facturare.php:246
 msgid "Da, campul <strong>CUI</strong> este Obligatoriu"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:257
+#: admin/class-wc-settings-facturare.php:264
 msgid "Camp Nr. Reg. Com."
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:283
+#: admin/class-wc-settings-facturare.php:290
 msgid "Da, campul <strong>Nr. Reg. Com</strong> este Obligatoriu"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:301
+#: admin/class-wc-settings-facturare.php:308
 msgid "Camp Nume Banca"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:327
+#: admin/class-wc-settings-facturare.php:334
 msgid "Da, campul <strong>Nume Banca</strong> este Obligatoriu"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:345
+#: admin/class-wc-settings-facturare.php:352
 msgid "Camp IBAN"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:371
+#: admin/class-wc-settings-facturare.php:378
 msgid "Da, campul <strong>IBAN</strong> este Obligatoriu"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:392
+#: admin/class-wc-settings-facturare.php:399
 msgid "Setari Generale"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:397
+#: admin/class-wc-settings-facturare.php:404
 msgid "Tip"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:400
+#: admin/class-wc-settings-facturare.php:407
 msgid "Butoane radio"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:401
+#: admin/class-wc-settings-facturare.php:408
 msgid "Select"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:404
+#: admin/class-wc-settings-facturare.php:411
 msgid ""
 "<p>Cum va fi afisata optiunea de a alaege intre persoana fizica sau "
 "juridica</p>"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:408
+#: admin/class-wc-settings-facturare.php:415
 msgid "Optiune implicita"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:414
+#: admin/class-wc-settings-facturare.php:421
 msgid "<p>Optiunea care va fi selectata implicit pe pagina de checkout</p>"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:424
+#: admin/class-wc-settings-facturare.php:431
 msgid "Reclame"
 msgstr ""
 
-#: admin/class-wc-settings-facturare.php:425
+#: admin/class-wc-settings-facturare.php:432
 msgid "Ascunde reclamele."
 msgstr ""
 
