@@ -120,16 +120,23 @@ class Woo_Facturare_Admin {
 			return;
 		}
 
+		$options = get_option( 'av_facturare', array() );
+		$options = wp_parse_args( $options, $this->defaults );
+
 		$av_settings['tip_facturare'] = sanitize_text_field($_POST['tip_facturare']);
 
 		if ( 'pers-fiz' == $_POST['tip_facturare'] ) {
 			
-			if ( '' == $av_settings['cnp'] ) {
-				$av_settings['cnp'] = '0000000000000';
-			}
+			if ( 'yes' == $options['facturare_pers_fiz_cnp_vizibility'] ) {
 
-			if ( isset( $_POST['cnp'] ) && '' != $_POST['cnp'] ) {
-				$av_settings['cnp'] = sanitize_text_field($_POST['cnp']);
+				if ( isset( $_POST['cnp'] ) && '' != $_POST['cnp'] ) {
+					$av_settings['cnp'] = sanitize_text_field($_POST['cnp']);
+				}else{
+					$av_settings['cnp'] = '0000000000000';
+				}
+
+			}elseif ( 'yes' == $options['facturare_pers_fiz_cnp_extra'] ) {
+				$av_settings['cnp'] = '0000000000000';
 			}
 
 		}elseif ( 'pers-jur' == $_POST['tip_facturare'] ) {
@@ -170,16 +177,23 @@ class Woo_Facturare_Admin {
 			return;
 		}
 
+		$options = get_option( 'av_facturare', array() );
+		$options = wp_parse_args( $options, $this->defaults );
+
 		$av_settings['tip_facturare'] = $data['tip_facturare'];
 
 		if ( 'pers-fiz' == $data['tip_facturare'] ) {
-			
-			if ( '' == $av_settings['cnp'] ) {
-				$av_settings['cnp'] = '0000000000000';
-			}
 
-			if ( isset( $_POST['cnp'] ) && '' != $_POST['cnp'] ) {
-				$av_settings['cnp'] = sanitize_text_field($_POST['cnp']);
+			if ( 'yes' == $options['facturare_pers_fiz_cnp_vizibility'] ) {
+
+				if ( isset( $_POST['cnp'] ) && '' != $_POST['cnp'] ) {
+					$av_settings['cnp'] = sanitize_text_field($_POST['cnp']);
+				}else{
+					$av_settings['cnp'] = '0000000000000';
+				}
+
+			}elseif ( 'yes' == $options['facturare_pers_fiz_cnp_extra'] ) {
+				$av_settings['cnp'] = '0000000000000';
 			}
 
 		}elseif ( 'pers-jur' == $data['tip_facturare'] ) {

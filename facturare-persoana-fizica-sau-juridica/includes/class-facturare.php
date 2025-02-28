@@ -29,6 +29,7 @@ class Woo_Facturare {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-facturare-admin.php';
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-facturare-review.php';
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-facturare-public.php';
+		// require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-facturare-checkout.php';
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-facturare-options-helper.php';
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/compatibilities.php';
 		$this->loader = new Woo_Facturare_Loader();
